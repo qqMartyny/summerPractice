@@ -1,7 +1,7 @@
 # Используем базовый образ Python версии 3.9 на основе slim
 FROM python:3.9-slim
 
-# Установка зависимостей
+# Устанавливаем зависимости
 RUN pip install python-dotenv
 
 RUN apt-get update \
